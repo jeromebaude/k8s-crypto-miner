@@ -1,8 +1,8 @@
 # Deploys a crypto miner malware example for testing the Lacework agent
 # Run the following command to deploy the example
-# kubectl apply -f https://raw.githubusercontent.com/lacework-dev/scripts/main/k8s-crypto-miner.yaml
+# kubectl apply -f https://raw.githubusercontent.com/jeromebaude/k8s-crypto-miner/main/k8s-crypto-miner.yaml
 # Run the following command to delete the example
-# kubectl delete -f https://raw.githubusercontent.com/lacework-dev/scripts/main/k8s-crypto-miner.yaml
+# kubectl delete -f https://raw.githubusercontent.com/jeromebaude/k8s-crypto-miner/main/k8s-crypto-miner.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
